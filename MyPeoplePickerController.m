@@ -39,8 +39,7 @@
 {
     NSString *property;
     // See MainMenu.nib for the corresponding checkbox tags.
-    switch ([sender tag])
-    {
+    switch ([sender tag]) {
         case 0: // Phone
             property = kABPhoneProperty;
             break;
@@ -60,11 +59,9 @@
             property = kABHomePageProperty;
             break;
     }
-    if ([sender state] == NSOnState)
-    {
+    if ([sender state] == NSOnState) {
         [self.peoplePickerView addProperty:property];
-    } else
-    {
+    } else {
         [self.peoplePickerView removeProperty:property];
     }
 }

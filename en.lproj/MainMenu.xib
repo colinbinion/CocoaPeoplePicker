@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1030</int>
-		<string key="IBDocument.SystemVersion">12E55</string>
-		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.39</string>
-		<string key="IBDocument.HIToolboxVersion">626.00</string>
+		<string key="IBDocument.SystemVersion">13D65</string>
+		<string key="IBDocument.InterfaceBuilderVersion">6154.17</string>
+		<string key="IBDocument.AppKitVersion">1265.20</string>
+		<string key="IBDocument.HIToolboxVersion">698.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">3084</string>
+			<string key="NS.object.0">6154.17</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSButton</string>
@@ -61,7 +61,7 @@
 						<object class="NSCustomView" id="700290648">
 							<reference key="NSNextResponder" ref="83185490"/>
 							<int key="NSvFlags">282</int>
-							<string key="NSFrame">{{20, 248}, {466, 146}}</string>
+							<string key="NSFrame">{{20, 248}, {466, 146.00000029394067}}</string>
 							<reference key="NSSuperview" ref="83185490"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="840231687"/>
@@ -74,7 +74,6 @@
 							<string key="NSFrame">{{13, 10}, {480, 236}}</string>
 							<reference key="NSSuperview" ref="83185490"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="462951834"/>
 							<array class="NSMutableArray" key="NSTabViewItems">
 								<object class="NSTabViewItem" id="421020877">
 									<object class="NSMutableString" key="NSIdentifier">
@@ -95,7 +94,7 @@
 													<int key="NSCellFlags2">0</int>
 													<string key="NSContents">Phone</string>
 													<object class="NSFont" key="NSSupport" id="77979367">
-														<string key="NSName">LucidaGrande</string>
+														<bool key="IBIsSystemFont">YES</bool>
 														<double key="NSSize">13</double>
 														<int key="NSfFlags">1044</int>
 													</object>
@@ -151,7 +150,7 @@
 													<int key="NSCellFlags2">4194304</int>
 													<string key="NSContents">View:</string>
 													<object class="NSFont" key="NSSupport">
-														<string key="NSName">LucidaGrande</string>
+														<bool key="IBIsSystemFont">YES</bool>
 														<double key="NSSize">10</double>
 														<int key="NSfFlags">2843</int>
 													</object>
@@ -176,6 +175,7 @@
 													</object>
 												</object>
 												<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+												<int key="NSTextFieldAlignmentRectInsetsVersion">1</int>
 											</object>
 											<object class="NSButton" id="835196083">
 												<reference key="NSNextResponder" ref="587918718"/>
@@ -323,12 +323,12 @@
 								<object class="NSTabViewItem" id="1047589946">
 									<object class="NSView" key="NSView" id="462951834">
 										<reference key="NSNextResponder" ref="840231687"/>
-										<int key="NSvFlags">256</int>
+										<int key="NSvFlags">274</int>
 										<array class="NSMutableArray" key="NSSubviews">
 											<object class="NSButton" id="938330135">
 												<reference key="NSNextResponder" ref="462951834"/>
 												<int key="NSvFlags">301</int>
-												<string key="NSFrame">{{131, 44}, {220, 32}}</string>
+												<string key="NSFrame">{{131, 69}, {220, 32}}</string>
 												<reference key="NSSuperview" ref="462951834"/>
 												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="1046229366"/>
@@ -406,10 +406,9 @@
 											<object class="NSButton" id="1046229366">
 												<reference key="NSNextResponder" ref="462951834"/>
 												<int key="NSvFlags">301</int>
-												<string key="NSFrame">{{131, 12}, {220, 32}}</string>
+												<string key="NSFrame">{{131, 36}, {220, 32}}</string>
 												<reference key="NSSuperview" ref="462951834"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSButtonCell" key="NSCell" id="887457251">
 													<int key="NSCellFlags">67108864</int>
@@ -455,7 +454,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="700290648"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1418}}</string>
 				<string key="NSMinSize">{506, 443}</string>
 				<string key="NSMaxSize">{650, 522}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -478,6 +477,7 @@
 							<string key="NSResourceName">NSMenuMixedState</string>
 						</object>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="22034982"/>
 						<object class="NSMenu" key="NSSubmenu" id="22034982">
 							<string key="NSTitle">CocoaPeoplePicker</string>
 							<array class="NSMutableArray" key="NSMenuItems">
@@ -529,6 +529,7 @@
 									<reference key="NSOnImage" ref="1008051450"/>
 									<reference key="NSMixedImage" ref="788595401"/>
 									<string key="NSAction">submenuAction:</string>
+									<reference key="NSTarget" ref="1057183469"/>
 									<object class="NSMenu" key="NSSubmenu" id="1057183469">
 										<object class="NSMutableString" key="NSTitle">
 											<characters key="NS.bytes">Services</characters>
@@ -608,6 +609,7 @@
 						<reference key="NSOnImage" ref="1008051450"/>
 						<reference key="NSMixedImage" ref="788595401"/>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="694382919"/>
 						<object class="NSMenu" key="NSSubmenu" id="694382919">
 							<object class="NSMutableString" key="NSTitle">
 								<characters key="NS.bytes">File</characters>
@@ -640,6 +642,7 @@
 									<reference key="NSOnImage" ref="1008051450"/>
 									<reference key="NSMixedImage" ref="788595401"/>
 									<string key="NSAction">submenuAction:</string>
+									<reference key="NSTarget" ref="478897197"/>
 									<object class="NSMenu" key="NSSubmenu" id="478897197">
 										<object class="NSMutableString" key="NSTitle">
 											<characters key="NS.bytes">Open Recent</characters>
@@ -746,6 +749,7 @@
 						<reference key="NSOnImage" ref="1008051450"/>
 						<reference key="NSMixedImage" ref="788595401"/>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="183188721"/>
 						<object class="NSMenu" key="NSSubmenu" id="183188721">
 							<object class="NSMutableString" key="NSTitle">
 								<characters key="NS.bytes">Edit</characters>
@@ -845,6 +849,7 @@
 									<reference key="NSOnImage" ref="1008051450"/>
 									<reference key="NSMixedImage" ref="788595401"/>
 									<string key="NSAction">submenuAction:</string>
+									<reference key="NSTarget" ref="1053328548"/>
 									<object class="NSMenu" key="NSSubmenu" id="1053328548">
 										<object class="NSMutableString" key="NSTitle">
 											<characters key="NS.bytes">Find</characters>
@@ -911,6 +916,7 @@
 									<reference key="NSOnImage" ref="1008051450"/>
 									<reference key="NSMixedImage" ref="788595401"/>
 									<string key="NSAction">submenuAction:</string>
+									<reference key="NSTarget" ref="562081687"/>
 									<object class="NSMenu" key="NSSubmenu" id="562081687">
 										<string key="NSTitle">Spelling</string>
 										<array class="NSMutableArray" key="NSMenuItems">
@@ -957,6 +963,7 @@
 						<reference key="NSOnImage" ref="1008051450"/>
 						<reference key="NSMixedImage" ref="788595401"/>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="59217798"/>
 						<object class="NSMenu" key="NSSubmenu" id="59217798">
 							<object class="NSMutableString" key="NSTitle">
 								<characters key="NS.bytes">Window</characters>
@@ -1014,6 +1021,7 @@
 						<reference key="NSOnImage" ref="1008051450"/>
 						<reference key="NSMixedImage" ref="788595401"/>
 						<string key="NSAction">submenuAction:</string>
+						<reference key="NSTarget" ref="1007954535"/>
 						<object class="NSMenu" key="NSSubmenu" id="1007954535">
 							<string key="NSTitle">Help</string>
 							<array class="NSMutableArray" key="NSMenuItems"/>
@@ -1555,9 +1563,9 @@
 						<int key="objectID">295</int>
 						<reference key="object" ref="462951834"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="938330135"/>
 							<reference ref="690470272"/>
 							<reference ref="1028756854"/>
+							<reference ref="938330135"/>
 							<reference ref="1046229366"/>
 						</array>
 						<reference key="parent" ref="1047589946"/>
@@ -2099,6 +2107,7 @@
 				<string key="290.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="293.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="294.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="295.IBNSViewMetadataGestureRecognizers" ref="0"/>
 				<string key="295.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="296.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="297.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -2133,6 +2142,78 @@
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<object class="IBPartialClassDescription">
+					<string key="className">FirstResponder</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MyPeoplePickerController</string>
+					<string key="superclassName">NSObject</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">../MyPeoplePickerController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MyPeoplePickerController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="editSelectedContactInAB:">id</string>
+						<string key="printContacts:">id</string>
+						<string key="printGroups:">id</string>
+						<string key="showSelectedContactInAB:">id</string>
+						<string key="toggleGroupSelection:">NSButton</string>
+						<string key="toggleMultipleItemsSelection:">NSButton</string>
+						<string key="viewProperty:">NSButton</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="editSelectedContactInAB:" id="222526683">
+							<string key="name">editSelectedContactInAB:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="printContacts:" id="62963000">
+							<string key="name">printContacts:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="printGroups:" id="574449458">
+							<string key="name">printGroups:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="showSelectedContactInAB:" id="338967957">
+							<string key="name">showSelectedContactInAB:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="toggleGroupSelection:" id="870048879">
+							<string key="name">toggleGroupSelection:</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
+						<object class="IBActionInfo" key="toggleMultipleItemsSelection:" id="637314902">
+							<string key="name">toggleMultipleItemsSelection:</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
+						<object class="IBActionInfo" key="viewProperty:" id="510043211">
+							<string key="name">viewProperty:</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
+					</dictionary>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">peoplePickerView</string>
+						<string key="NS.object.0">ABPeoplePickerView</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">peoplePickerView</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0" id="1009549137">
+							<string key="name">peoplePickerView</string>
+							<string key="candidateClassName">ABPeoplePickerView</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">../MyPeoplePickerController.m</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
 					<string key="className">MyPeoplePickerController</string>
 					<string key="superclassName">NSObject</string>
 					<dictionary class="NSMutableDictionary" key="actions">
@@ -2145,34 +2226,13 @@
 						<string key="viewProperty:">NSButton</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="editSelectedContactInAB:">
-							<string key="name">editSelectedContactInAB:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="printContacts:">
-							<string key="name">printContacts:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="printGroups:">
-							<string key="name">printGroups:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="showSelectedContactInAB:">
-							<string key="name">showSelectedContactInAB:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="toggleGroupSelection:">
-							<string key="name">toggleGroupSelection:</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBActionInfo" key="toggleMultipleItemsSelection:">
-							<string key="name">toggleMultipleItemsSelection:</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBActionInfo" key="viewProperty:">
-							<string key="name">viewProperty:</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
+						<reference key="editSelectedContactInAB:" ref="222526683"/>
+						<reference key="printContacts:" ref="62963000"/>
+						<reference key="printGroups:" ref="574449458"/>
+						<reference key="showSelectedContactInAB:" ref="338967957"/>
+						<reference key="toggleGroupSelection:" ref="870048879"/>
+						<reference key="toggleMultipleItemsSelection:" ref="637314902"/>
+						<reference key="viewProperty:" ref="510043211"/>
 					</dictionary>
 					<object class="NSMutableDictionary" key="outlets">
 						<string key="NS.key.0">peoplePickerView</string>
@@ -2180,10 +2240,7 @@
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<string key="NS.key.0">peoplePickerView</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">peoplePickerView</string>
-							<string key="candidateClassName">ABPeoplePickerView</string>
-						</object>
+						<reference key="NS.object.0" ref="1009549137"/>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
@@ -2194,9 +2251,18 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<bool key="IBDocument.previouslyAttemptedUpgradeToXcode5">NO</bool>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
 			<integer value="1030" key="NS.object.0"/>
+		</object>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
+			<real value="1070" key="NS.object.0"/>
+		</object>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<integer value="4600" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
